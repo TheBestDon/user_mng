@@ -1,0 +1,17 @@
+'use strict';
+const FluxConstant = require('flux-constant');
+
+
+module.exports = FluxConstant.set([
+    'GET_DETAILS',
+    'GET_DETAILS_RESPONSE',
+    'GET_USER',
+    'GET_USER_RESPONSE',
+    'RESET_STORE',
+    'SAVE_DETAILS',
+    'SAVE_DETAILS_RESPONSE',
+    'SAVE_PASSWORD',
+    'SAVE_PASSWORD_RESPONSE',
+    'SAVE_USER',
+    'SAVE_USER_RESPONSE'
+]);
